@@ -1,0 +1,303 @@
+/* Body */
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #000000;
+  color: #bd1d1d;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  height: 600px;
+  flex-direction: column; }
+
+/* Imagen de cabecera */
+#imgheader {
+  width: 90vw;
+  height: 40vh; }
+
+/* Header Imagenes Boostrap */
+.d-blockw-100 {
+  height: 350px; }
+
+header {
+  text-align: center; }
+
+/* titular de pagina principal */
+h1 {
+  color: #bd1d1d;
+  margin: 100px;
+  font-family: 'Roboto', sans-serif;
+  transition: all 2s; }
+
+h1:hover {
+  transform: scale(1.5);
+  background: linear-gradient(to right, #141414, #797474); }
+
+/* Navegador */
+nav ul {
+  padding: 0px;
+  text-align: left;
+  list-style: none;
+  /* propiedades de los Links */ }
+  nav ul li a {
+    color: #bd1d1d;
+    border-style: hidden;
+    border-radius: 10px;
+    padding: 5px;
+    width: 25%;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif; }
+    nav ul li a :hover {
+      background-color: #bd1d1d;
+      color: #e7e2a2;
+      padding: 4px; }
+
+/* Secciones con Grids */
+section h2 {
+  margin: 50px;
+  text-align: center;
+  text-decoration: underline; }
+
+.gridConteinerSection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 15px;
+  height: 300px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  grid-template-areas: "title title title" "pic text text" "pic text text";
+  justify-content: center;
+  align-items: center; }
+
+#title {
+  grid-area: title;
+  text-align: center;
+  text-decoration: underline; }
+
+#text {
+  grid-area: text;
+  text-align: center;
+  transition: all 1s;
+  transform: translate(0px, -50px); }
+
+/* imagenes de las obras */
+#pic {
+  grid-area: pic;
+  width: 150px;
+  height: 150px;
+  border: solid 5px;
+  border-radius: 20%;
+  transition: all 1s; }
+
+#pic:hover {
+  transform: scale(1.2);
+  margin: 40px; }
+
+/* Comienzo de footer */
+hr {
+  color: #bd1d1d; }
+
+/* Footer */
+footer {
+  background: linear-gradient(to bottom, #292727, #615d5d);
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
+
+/* Links Redes sociales */
+.footer__redes {
+  display: inline-flex;
+  list-style: none; }
+
+.footer__redes--link {
+  border: solid;
+  list-style: none;
+  border-color: #bd1d1d;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  padding: 5px; }
+
+.footer__redes--link:hover {
+  border-color: #e7e2a2; }
+
+/* menu footer */
+.footer__menu {
+  list-style: none;
+  display: inline-block; }
+
+footer li a {
+  color: #bd1d1d; }
+
+footer li a:hover {
+  color: #e7e2a2; }
+
+/* imagenes galeria Bootstrap*/
+.container div img {
+  width: 90%;
+  height: 80%;
+  margin: 15px;
+  border-style: solid;
+  border-radius: 5px;
+  transition: all 0.5s; }
+
+.container div img:hover {
+  transform: scale(1.1); }
+
+/* Formulario Contacto */
+.form-control {
+  background: #646461;
+  width: 80vw;
+  justify-content: center;
+  align-items: center; }
+
+#exampleFormControlTextarea1 {
+  height: 200px; }
+
+/* Boton Enviar Contacto */
+.btn {
+  margin: 10px; }
+
+/* estilo de color para titulo de tabla seccion clases */
+.titulo-tabla {
+  color: #bd1d1d; }
+
+tr {
+  color: #bd1d1d; }
+
+#horario {
+  color: #bd1d1d; }
+
+/* video */
+#anselmi {
+  width: 30vw;
+  height: 30vh; }
+
+/* Media Querie Tablet */
+@media only screen and (min-width: 768px) {
+  /* propiedades del bloque de la lista navegador flexbox */
+  nav ul {
+    margin: 5px;
+    padding: 0px;
+    text-align: center;
+    display: flex;
+    list-style: none;
+    justify-content: center; }
+  /* propiedades de los Links */
+  nav ul li a {
+    color: #bd1d1d;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px;
+    width: 25%;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif; }
+  nav ul li a:hover {
+    background-color: #bd1d1d;
+    color: #e7e2a2;
+    padding: 4px; }
+  /* Secciones con Grids */
+  section h2 {
+    margin: 50px;
+    text-align: center;
+    text-decoration: underline; }
+  .gridConteinerSection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 15px;
+    height: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    grid-template-areas: "pic title title" "pic text text" "pic text text"; }
+  #title {
+    grid-area: title;
+    text-align: center;
+    text-decoration: underline; }
+  #text {
+    grid-area: text;
+    text-align: center; }
+  /* imagenes de las obras */
+  #pic {
+    grid-area: pic;
+    width: 75%;
+    height: 90%;
+    border: solid 5px;
+    border-radius: 20%; }
+  /* imagenes galeria Bootstrap*/
+  .container div img {
+    width: 90%;
+    height: 80%;
+    margin: 15px;
+    border-style: solid;
+    border-radius: 5px;
+    transition: all 0.5s; }
+  .container div img:hover {
+    transform: scale(1.1); } }
+
+/* Media Querie Desktop */
+@media only screen and (min-width: 1024px) {
+  /* propiedades del bloque de la lista navegador flexbox */
+  nav ul {
+    /* margin: 5px; */
+    padding: 0px;
+    text-align: center;
+    display: flex;
+    list-style: none;
+    justify-content: space-between; }
+  /* propiedades de los Links */
+  nav ul li a {
+    color: #bd1d1d;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px;
+    width: 25%;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif; }
+  nav ul li a:hover {
+    background-color: #bd1d1d;
+    color: #e7e2a2;
+    padding: 4px; }
+  /* Secciones con Grids */
+  section h2 {
+    margin: 50px;
+    text-align: center;
+    text-decoration: underline; }
+  .gridConteinerSection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 15px;
+    height: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    grid-template-areas: "pic title title" "pic text text" "pic text text"; }
+  #title {
+    grid-area: title;
+    text-align: center;
+    text-decoration: underline; }
+  #text {
+    grid-area: text;
+    text-align: center; }
+  /* imagenes de las obras */
+  #pic {
+    grid-area: pic;
+    width: 75%;
+    height: 90%;
+    border: solid 5px;
+    border-radius: 20%; }
+  /* imagenes galeria Bootstrap*/
+  .container div img {
+    width: 90%;
+    height: 80%;
+    margin: 15px;
+    border-style: solid;
+    border-radius: 5px;
+    transition: all 0.5s; }
+  .container div img:hover {
+    transform: scale(1.1); }
+  /* header con bootstrap */
+  .carousel-inner div img {
+    height: 65vh;
+    width: 80vw; } }

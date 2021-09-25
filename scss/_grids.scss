@@ -1,0 +1,54 @@
+/* Secciones con Grids */
+section{
+    h2{
+    margin: 50px;
+    text-align: center;
+    text-decoration: underline;
+    }
+}
+
+.gridConteinerSection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 15px;
+    height: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    grid-template-areas: 
+        "title title title"
+        "pic text text"
+        "pic text text";
+
+    justify-content: center;
+    align-items: center;
+}
+
+#title{
+    grid-area: title;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#text{
+    grid-area: text;
+    text-align: center;
+    transition: all 1s;
+    transform: translate(0px, -50px);
+}
+
+/* imagenes de las obras */
+
+#pic{
+    grid-area: pic;
+    width: 150px;
+    height: 150px;
+    border: solid 5px;
+    border-radius: 20%;
+    transition: all 1s;
+}
+
+#pic:hover{
+    transform: scale(1.2);
+    margin: 40px;
+}
