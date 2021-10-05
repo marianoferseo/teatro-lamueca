@@ -33,7 +33,7 @@ nav{
 
     ul{
         padding: 0px;
-        text-align: left;
+        text-align: center;
         list-style: none;
 
         /* propiedades de los Links */
@@ -48,17 +48,19 @@ nav{
                 font-size: 23px;
                 font-family: 'Roboto', sans-serif;
             
-    
-                :hover {
-                    background-color: #bd1d1d;
-                    color: #e7e2a2;
-                    padding: 4px;
-                }
+              
             }
 
         
         }
     }
 
+    
 
+
+}
+nav ul li a:hover {
+    background-color: #bd1d1d;
+    color: #e7e2a2;
+    padding: 4px;
 }
