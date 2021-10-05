@@ -242,8 +242,7 @@ tr {
     padding: 0px;
     text-align: center;
     display: flex;
-    list-style: none;
-    justify-content: space-between; }
+    list-style: none; }
   /* propiedades de los Links */
   nav ul li a {
     color: #bd1d1d;
@@ -253,10 +252,10 @@ tr {
     width: 25%;
     font-size: 23px;
     font-family: 'Roboto', sans-serif; }
-    nav ul li a :hover {
-      background-color: #bd1d1d;
-      color: #e7e2a2;
-      padding: 4px; }
+  nav ul li a:hover {
+    background-color: #bd1d1d;
+    color: #e7e2a2;
+    padding: 4px; }
   /* Secciones con Grids */
   section h2 {
     margin: 50px;
@@ -293,8 +292,8 @@ tr {
     border-style: solid;
     border-radius: 5px;
     transition: all 0.5s; }
-    .container div img :hover {
-      transform: scale(1.1); }
+  .container div img:hover {
+    transform: scale(1.1); }
   /* header con bootstrap */
   .carousel-inner div img {
     height: 65vh;
