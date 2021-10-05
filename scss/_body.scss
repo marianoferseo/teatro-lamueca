@@ -3,8 +3,8 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #000000;
-    color: #bd1d1d;
+    background-color: $fondo-main;
+    color: $text-main;
     font-family: 'Roboto', sans-serif;
     display: flex;
 	height: 600px;

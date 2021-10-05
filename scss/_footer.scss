@@ -43,10 +43,15 @@ footer{
     display: inline-block;
 }
 
-footer li a{
-    color: #bd1d1d;
-    
+footer{
+
+    li {
+        a{
+            color: $text-main;
+        }    
+    }
 }
+
 
 footer li a:hover{
     color: #e7e2a2;

@@ -15,7 +15,7 @@ header{
 
 /* titular de pagina principal */
 h1{
-    color: #bd1d1d;
+    color: $text-main;
     margin: 100px;
     font-family: 'Roboto', sans-serif;
     transition: all 2s;
@@ -40,7 +40,7 @@ nav{
         li {
 
             a{
-                color: #bd1d1d;
+                color: $text-main;
                 border-style: hidden;
                 border-radius: 10px;
                 padding: 5px;

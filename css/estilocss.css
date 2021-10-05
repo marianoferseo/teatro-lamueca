@@ -141,9 +141,8 @@ footer li a:hover {
   border-style: solid;
   border-radius: 5px;
   transition: all 0.5s; }
-
-.container div img:hover {
-  transform: scale(1.1); }
+  .container div img img:hover {
+    transform: scale(1.1); }
 
 /* Formulario Contacto */
 .form-control {
@@ -193,10 +192,10 @@ tr {
     width: 25%;
     font-size: 23px;
     font-family: 'Roboto', sans-serif; }
-  nav ul li a:hover {
-    background-color: #bd1d1d;
-    color: #e7e2a2;
-    padding: 4px; }
+    nav ul li a :hover {
+      background-color: #bd1d1d;
+      color: #e7e2a2;
+      padding: 4px; }
   /* Secciones con Grids */
   section h2 {
     margin: 50px;
@@ -233,14 +232,13 @@ tr {
     border-style: solid;
     border-radius: 5px;
     transition: all 0.5s; }
-  .container div img:hover {
-    transform: scale(1.1); } }
+    .container div img :hover {
+      transform: scale(1.1); } }
 
 /* Media Querie Desktop */
 @media only screen and (min-width: 1024px) {
   /* propiedades del bloque de la lista navegador flexbox */
   nav ul {
-    /* margin: 5px; */
     padding: 0px;
     text-align: center;
     display: flex;
@@ -255,10 +253,10 @@ tr {
     width: 25%;
     font-size: 23px;
     font-family: 'Roboto', sans-serif; }
-  nav ul li a:hover {
-    background-color: #bd1d1d;
-    color: #e7e2a2;
-    padding: 4px; }
+    nav ul li a :hover {
+      background-color: #bd1d1d;
+      color: #e7e2a2;
+      padding: 4px; }
   /* Secciones con Grids */
   section h2 {
     margin: 50px;
@@ -295,8 +293,8 @@ tr {
     border-style: solid;
     border-radius: 5px;
     transition: all 0.5s; }
-  .container div img:hover {
-    transform: scale(1.1); }
+    .container div img :hover {
+      transform: scale(1.1); }
   /* header con bootstrap */
   .carousel-inner div img {
     height: 65vh;

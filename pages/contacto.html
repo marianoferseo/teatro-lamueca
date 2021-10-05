@@ -63,17 +63,19 @@
         <section class="container">
         
         
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">E-mail</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@gmail.com">
-              </div>
-              <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Ingresanos tu consulta!</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-
-            
-              <button type="button" class="btn btn-danger">Enviar</button>
+            <form action="../php/enviar.php" method="POST">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@gmail.com" name="mail" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Ingresanos tu consulta!</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="mensaje" required></textarea>
+                  </div>
+    
+                
+                  <button type="submit" class="btn btn-danger">Enviar</button>
+            </form>
             
         
         </section>
