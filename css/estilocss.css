@@ -166,13 +166,29 @@ footer li a:hover {
 tr {
   color: #bd1d1d; }
 
-#horario {
+h2 {
   color: #bd1d1d; }
 
-/* video */
-#anselmi {
+/*Tabla*/
+#tabla {
+  border: #bd1d1d;
+  border-style: double;
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 10px 5px; }
+
+/*Imagenes en Clases*/
+.PicClases {
+  display: inline-block; }
+
+.pic-clases {
   width: 30vw;
-  height: 30vh; }
+  height: 100vh; }
+
+/*Menu Food&drinks*/
+#menu {
+  width: 80vw;
+  height: 100vh; }
 
 /* Media Querie Tablet */
 @media only screen and (min-width: 768px) {

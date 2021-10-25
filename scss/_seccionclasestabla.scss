@@ -6,14 +6,42 @@ tr{
     color: #bd1d1d;
 }
 
-#horario{
+h2{
     color: #bd1d1d;
 }
 
-/* video */
+/*Tabla*/
 
-#anselmi{
-    width: 30vw;
-    height: 30vh;
 
+
+#tabla{
+    
+    border: #bd1d1d;
+    border-style: double;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 10px 5px;
 }
+
+/*Imagenes en Clases*/
+
+
+
+.PicClases{
+    display: inline-block;
+}
+
+.pic-clases{
+    width: 30vw;
+    height: 100vh;
+}
+
+/*Menu Food&drinks*/
+
+
+#menu{
+    width: 80vw;
+    height: 100vh;
+}
+
+
